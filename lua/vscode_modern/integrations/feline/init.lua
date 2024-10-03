@@ -37,7 +37,7 @@ M.components = function()
     components.active[1] = {
         {
             provider = ' ',
-            hl = { bg = 'vi_mode_bg' },
+            hl = { bg = 'NONE' },
         },
         {
             provider = 'vi_mode',
@@ -45,14 +45,14 @@ M.components = function()
                 return {
                     name = vi_mode_utils.get_mode_highlight_name(),
                     style = 'NONE',
-                    bg = 'vi_mode_bg',
+                    bg = 'NONE',
                 }
             end,
             icon = '',
         },
         {
             provider = ' ',
-            hl = { bg = 'vi_mode_bg' },
+            hl = { bg = 'NONE' },
         },
         {
             provider = function()
@@ -382,15 +382,15 @@ M.components = function()
     components.inactive[1] = {
         {
             provider = ' ',
-            hl = { bg = 'vi_mode_bg' },
+            hl = { bg = 'NONE' },
         },
         {
             provider = 'file_type',
-            hl = { bg = 'vi_mode_bg' },
+            hl = { bg = 'NONE' },
         },
         {
             provider = ' ',
-            hl = { bg = 'vi_mode_bg' },
+            hl = { bg = 'NONE' },
             right_sep = { ' ' },
         },
     }
