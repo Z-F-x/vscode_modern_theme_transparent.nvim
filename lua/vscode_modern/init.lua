@@ -12,7 +12,7 @@ local M = {}
 --- @field cache_path? string
 M.config = {
     cursorline = false,
-    transparent_background = false,
+    transparent_background = true, -- Set this to true
     nvim_tree_darker = false,
     undercurl = true,
     italic_keyword = false,

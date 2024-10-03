@@ -13,4 +13,4 @@
     (#match? @constructor.constructor "^constructor$"))
 
 ((identifier) @number.infinity
-    (#match? @number.infinity "^Infinity$"))
+    (#match? @number.infinity "^Infinity$VSCodeModernConfig"))
