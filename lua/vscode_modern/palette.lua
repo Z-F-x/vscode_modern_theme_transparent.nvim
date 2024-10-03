@@ -138,6 +138,7 @@ local palette = {
     red_09 = '#f85149',
     red_10 = '#ffcccc',
 
+    none_1 = '00000000',
     none = 'NONE',
 }
 

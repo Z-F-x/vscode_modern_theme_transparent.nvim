@@ -3,21 +3,21 @@ return {
     --- @param config VSCodeModernConfig
     --- @return VSCodeModernThemeDark
     dark = function(palette, config)
-        local background = palette.none
-        local statusline_bg = palette.dark_03
+        local background = palette.none_1
+        local statusline_bg = palette.none_1
 
         if
             config.custom_dark_background ~= nil
             and type(config.custom_dark_background) == 'string'
         then
-            background = config.custom_dark_background
+            background = palette.none_1
         end
 
         if
             config.custom_statusline_dark_background ~= nil
             and type(config.custom_statusline_dark_background)
         then
-            statusline_bg = config.custom_statusline_dark_background
+            statusline_bg = palette.none_1
         end
 
         --- @class VSCodeModernThemeDark
@@ -25,7 +25,7 @@ return {
             palette = palette,
             ui = {
                 bg = background,
-                bg_darker_01 = palette.dark_05,
+                bg_darker_01 = palette.none_1,
                 fg = palette.light_07,
                 cursor = {
                     bg = palette.light_03,
