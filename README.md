@@ -6,7 +6,7 @@
 ## Files / fzf
 ![screenshot-02](./screenshots/Screenshot_20241004_105126.png)
 
-## Editor
+## Neo-Tree Filesystem and Editor
 ![screenshot-03](./screenshots/Screenshot_20241004_105151.png)
 
 
