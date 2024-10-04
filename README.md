@@ -1,4 +1,4 @@
-# Please see https://github.com/gmr458/vscode_modern_theme.nvim for original fork!
+# Please see [gmr458] (https://github.com/gmr458/vscode_modern_theme.nvim) for original fork!
 
 # VSCode Modern theme for Neovim, Transparent
 ![screenshot-01](./screenshots/Screenshot_20241004_104859.png)
