@@ -1,4 +1,6 @@
-# Please see [gmr458] (https://github.com/gmr458/vscode_modern_theme.nvim) for original repo! Also you need to run this in nvim with lazyvim + in a terminal emulator that is set to transparent, transluscent and blur. Screnshots are taken while running config in konsole.
+# Please see [gmr458] (https://github.com/gmr458/vscode_modern_theme.nvim) for original repo! 
+
+##Also you need to run this in nvim with lazyvim + in a terminal emulator that is set to transparent, transluscent and blur. Screnshots are taken while running config in konsole.
 
 # VSCode Modern theme for Neovim, Transparent
 ![screenshot-01](./screenshots/Screenshot_20241004_104859.png)
