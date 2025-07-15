@@ -1,1 +1,1 @@
-lua require("vscode_modern_transparent").load()
+lua require("vscode_modern_theme_transparent").load()

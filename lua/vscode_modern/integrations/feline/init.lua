@@ -1,4 +1,4 @@
-local colors = require 'vscode_modern_transparent.palette'
+local colors = require 'vscode_modern_theme_transparent.palette'
 
 local M = {}
 
@@ -369,7 +369,7 @@ M.components = function()
                 end
 
                 local filetypes =
-                    require 'vscode_modern_transparent.integrations.feline.filetypes'
+                    require 'vscode_modern_theme_transparent.integrations.feline.filetypes'
                 if filetypes[ft] == nil then
                     return filetypes['']
                 end
