@@ -1,4 +1,4 @@
-# Please see [gmr458] (https://github.com/gmr458/vscode_modern_theme.nvim) for original repo! 
+# Please see [gmr458] (https://github.com/gmr458/vscode_modern_transparent_theme.nvim) for original repo!
 
 ## Also you need to run this in nvim with lazyvim + in a terminal emulator that is set to transparent, transluscent and blur. Screnshots are taken while running config in konsole.
 
@@ -17,7 +17,7 @@
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
   {
-    "Z-F-x/vscode_modern_theme_transparent.nvim",
+    "Z-F-x/vscode_modern_transparent_theme_transparent.nvim",
     opts = {
       transparent = true,
       styles = {
@@ -28,12 +28,12 @@
     lazy = false,
     priority = 1000,
     config = function()
-      require("vscode_modern").setup({
+      require("vscode_modern_transparent").setup({
         cursorline = true,
         transparent_background = true,
         nvim_tree_darker = true,
       })
-      vim.cmd([[colorscheme vscode_modern]])
+      vim.cmd([[colorscheme vscode_modern_transparent]])
 
       vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
       vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
